@@ -1,0 +1,99 @@
+body {
+    background-color: #F4EBDD;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+#Encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    background-color: #d1c7b7
+}
+
+#Encabezado img {
+    width: 250px;
+    height: auto;
+}
+
+#Encabezado p {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+h1 {
+    font-size: 40px;
+    color: #333;
+    margin: 0;
+    }
+
+h1 a{
+    text-decoration: none;
+    color: #333;
+}
+
+#compra {
+    text-align: center;
+    margin: 30px 0 20px;
+}
+
+#compra h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.formCompra{
+    background-color: #F4EBDD;
+    max-width: 500px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.formCompra label {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.formCompra input {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #333;
+    border-radius: 7px;
+}
+
+.formCompra button {
+    background-color: #83b6ee;
+    color: antiquewhite;
+    padding: 10px 20x;
+    border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#producto {
+    border-radius: 5px;
+    font-size: large;
+
+}
+
+footer {
+    padding: 20px;
+    background-color: #d1c7b7;
+    text-align: center;
+}

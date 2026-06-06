@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de compra - La Ropa</title>
+    <link rel="stylesheet" href="estilo formulario.css">
+</head>
+<body>
+
+    <header>
+    <div id="Encabezado">
+        <h1><a href="login.html">La Ropa</a></h1>
+        <p>Una remera para cada uno de tus días</p><br>
+        <img src="imágenes\pampa logo.png">
+    </div>
+    </header>
+
+        <div id="compra">
+        <h2>DALÉ, COMPRÁ, ES BUENO COMPRAR, ¿SABÍAS ESO?</h2>
+    </div>
+    
+    <main>
+        <form class="formCompra">
+            <label>¿Cómo te dicen los que te conocen?:</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre completo" required>
+
+            <label>¿A qué calle y número te mandamos la remera?:</label>
+            <input type="text" id="direccion" placeholder="Escribe tu dirección" required>
+
+            <label>Correo electrónico:</label>
+            <input type="text" id="email" placeholder="Escribe tu dirección" required>            
+
+            <label>Ciudad:</label>
+            <input type="text" id="ciudad" placeholder="Escribe tu ciudad" required>
+
+            <label>Código Postal:</label>
+            <input type="text" id="codigopostal" placeholder="Escribe tu código postal" required>
+
+            <label>Producto:</label>
+            <select id="producto">
+                <option value="">Elegí uno de nuestros magnánimos productos</option>
+                <option value="Remera Lunes">Remera Lunes - $15.000.-</option>
+                <option value="Remera Martes">Remera Martes - $15.000.-</option>
+                <option value="Remera Miércoles">Remera Miércoles - $15.000.-</option>
+                <option value="Remera Jueves">Remera Jueves - $15.000.-</option>
+                <option value="Remera Viernes">Remera Viernes - $15.000.-</option>
+                <option value="Remera Sábado">Remera Sábado - $15.000.-</option>
+            <label>Cantidad:</label>
+            <input type="number" id="cantidad" min="1" value="1" required>
+
+            <button type="submit" onclick="enviarCompra()">Envíen cuanto antes mi remera, por Dios, la necesito</button>
+
+        </form>
+    </main>
+<footer>
+<p>📩 Contacto: comprayamismo@laropa.com</p>
+<p>🌎 Quilmes, Buenos Aires, Argentina.</p>
+<p>📞 Teléfono: +54 9 11 1111 1111</p>
+</footer>
+<script src="miScript.js"></script>
+</body>
+</html>

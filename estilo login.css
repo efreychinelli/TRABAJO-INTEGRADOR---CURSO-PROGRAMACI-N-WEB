@@ -1,0 +1,58 @@
+body {
+    background-color: #F4EBDD;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+#Encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    background-color: #d1c7b7
+}
+
+h1 {
+    font-size: 40px;
+    color: #333;
+    margin: 0;
+    }
+
+h1 a{
+    text-decoration: none;
+    color: #333;
+}
+
+#Encabezado p {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+#Encabezado img {
+    width: 250px;
+    height: auto;
+}
+
+#formulario {
+    background-color: #fce3bc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    padding: 20px;
+    background-color: #d1c7b7;
+    text-align: center;
+}
